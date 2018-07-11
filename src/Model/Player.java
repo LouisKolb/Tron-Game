@@ -97,7 +97,7 @@ public class Player {
 		System.out.println("- Durée de la partie: " + GameTimer + "s");
 		System.out.println("- FIN DE LA PARTIE !");
 
-		JOptionPane.showMessageDialog(null, "Le joueur " + this.getName() + " a gagné!\nAppuyez sur OK puis F8 pour recommencer!", "Fin de la partie", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, "Le joueur " + this.getName() + " a gagné!\nAppuyez sur OK puis sur R pour recommencer!", "Fin de la partie", JOptionPane.INFORMATION_MESSAGE);
 	}
 
 

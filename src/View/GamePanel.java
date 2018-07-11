@@ -26,9 +26,10 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
 	public static long  startTime;
 
 	public GamePanel() {
-		setBackground(Color.BLACK);
+		setBackground(Color.GRAY);
 		setLayout(new BorderLayout());
 		setSize(W, H);
+
 
 		manager = new GameManager(W, H);
 		timer = new Timer(30, this);
@@ -66,7 +67,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
 		else if(e.getKeyCode() == KeyEvent.VK_D)
 			manager.setP2TargetDirection(((manager.getP2().getDirection()) + 1) % 4);
 
-		if(e.getKeyCode() == KeyEvent.VK_F8)
+		if(e.getKeyCode() == KeyEvent.VK_R)
 			start();
 	}
 
