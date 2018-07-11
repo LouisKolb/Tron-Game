@@ -30,7 +30,6 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
 		setLayout(new BorderLayout());
 		setSize(W, H);
 
-
 		manager = new GameManager(W, H);
 		timer = new Timer(30, this);
 	}

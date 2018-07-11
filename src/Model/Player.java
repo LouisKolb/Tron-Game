@@ -15,8 +15,6 @@ public class Player {
 	private LengthNode head;
 	private Color color;
 
-	private int UP = 0, RIGHT = 1, DOWN = 2, LEFT = 3;
-
 	public Player(String name, int direction, Color color, int x, int y) {
 		this.name = name;
 		this.direction = direction;
