@@ -1,0 +1,27 @@
+{
+  "game_config": {
+    "pixel_size": 2,
+    "grid_height": 400,
+    "grid_wight": 600
+  },
+  "players": {
+    "1": {
+      "name": "Bleu",
+      "start_x": 600,
+      "start_y": 300,
+      "direction": 3,
+      "color_r": 3,
+      "color_g": 3,
+      "color_b": 173
+    },
+    "2": {
+      "name": "Rouge",
+      "start_x": 0,
+      "start_y": 200,
+      "direction": 1,
+      "color_r": 173,
+      "color_g": 3,
+      "color_b": 3
+    }
+  }
+}
